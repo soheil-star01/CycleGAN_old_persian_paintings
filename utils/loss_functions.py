@@ -1,4 +1,4 @@
-
+import tensorflow as tf
 def discriminator_loss(real, generated):
     real_loss = tf.keras.losses.BinaryCrossentropy(from_logits=True, reduction=tf.keras.losses.Reduction.NONE)(tf.ones_like(real), real)
 
