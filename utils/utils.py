@@ -1,3 +1,5 @@
+import tensorflow as tf
+import os
 
 def create_ds(path_p,path_p_):
     IMAGE_SIZE = [256, 256]

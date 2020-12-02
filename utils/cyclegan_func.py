@@ -3,7 +3,6 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import tensorflow_addons as tfa
 import numpy as np
-import os
 import utils.loss_functions
 import utils.utils
 OUTPUT_CHANNELS = 3
